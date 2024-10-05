@@ -82,8 +82,7 @@ if uploaded_file is not None:
 
     # model_directory = r'D:\ATMA\sem 5\Mesin\Supervised Learning (Praktek)\Model Suprevised Learning (Praktek)\Tugas3_A_11664'
 
-    model_directory = r'D:\SURYA\UAJY\Semester 5\Asdos Machine Learning\Pemegang Modul\Modul Supervised Learning\New folder\New folder'
-    model_path = os.path. join(model_directory, r'SVR_IPK_model.pkl')
+    model_path = r'SVR_IPK_model.pkl'
 
     if os.path.exists(model_path):
         with open(model_path, 'rb') as f:
